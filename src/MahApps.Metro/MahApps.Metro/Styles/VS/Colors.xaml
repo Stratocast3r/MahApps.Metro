@@ -5,12 +5,12 @@
                     mc:Ignorable="options">
 
     <!--  Background  -->
-    <SolidColorBrush x:Key="Background" Color="#1C1C1C" options:Freeze="True" />
-    <SolidColorBrush x:Key="LightBackground" Color="#2D2D30" options:Freeze="True" />
+    <SolidColorBrush x:Key="Background" Color="#D9D9D9" options:Freeze="True" />
+    <SolidColorBrush x:Key="LightBackground" Color="#EBEBEB" options:Freeze="True" />
 
-    <Color x:Key="AccentColor">#2D2D30</Color>
-    <Color x:Key="BlackColor">#FFFFFFFF</Color>
-    <Color x:Key="WhiteColor">#2D2D30</Color>
+    <Color x:Key="AccentColor">#CFCFCF</Color>
+    <Color x:Key="BlackColor">#2D2D30</Color>
+    <Color x:Key="WhiteColor">#FFFFFFFF</Color>
 
     <!--  re-set brushes too  -->
     <SolidColorBrush x:Key="HighlightBrush" Color="{StaticResource HighlightColor}" options:Freeze="True" />
@@ -49,24 +49,24 @@
     </LinearGradientBrush>
 
     <!--  Foreground  -->
-    <SolidColorBrush x:Key="Foreground" Color="#FFFFFF" options:Freeze="True" />
-    <SolidColorBrush x:Key="WindowTitleForeground" Color="#999988" options:Freeze="True" />
+    <SolidColorBrush x:Key="Foreground" Color="#000000" options:Freeze="True" />
+    <SolidColorBrush x:Key="WindowTitleForeground" Color="#000000" options:Freeze="True" />
 
     <!--  General  -->
-    <SolidColorBrush x:Key="BackgroundHighlighted" Color="#54545C" options:Freeze="True" />
-    <SolidColorBrush x:Key="BorderBrushHighlighted" Color="#6A6A75" options:Freeze="True" />
+    <SolidColorBrush x:Key="BackgroundHighlighted" Color="#D9D9D9" options:Freeze="True" />
+    <SolidColorBrush x:Key="BorderBrushHighlighted" Color="#D9D9D9" options:Freeze="True" />
     <SolidColorBrush x:Key="BackgroundSelected" Color="#007ACC" options:Freeze="True" />
     <SolidColorBrush x:Key="BorderBrushSelected" Color="#1C97EA" options:Freeze="True" />
-    <SolidColorBrush x:Key="BackgroundNormal" Color="#3F3F46" options:Freeze="True" />
-    <SolidColorBrush x:Key="BorderBrushNormal" Color="#54545C" options:Freeze="True" />
+    <SolidColorBrush x:Key="BackgroundNormal" Color="#DBDBDB" options:Freeze="True" />
+    <SolidColorBrush x:Key="BorderBrushNormal" Color="#DBDBDB" options:Freeze="True" />
     <SolidColorBrush x:Key="WindowGlowBrush" Color="#017ACC" options:Freeze="True" />
 
     <!--  Text Box  -->
-    <SolidColorBrush x:Key="TextBoxBackground" Color="#333337" options:Freeze="True" />
-    <SolidColorBrush x:Key="TextBoxBackgroundSelected" Color="#3F3F46" options:Freeze="True" />
+    <SolidColorBrush x:Key="TextBoxBackground" Color="{StaticResource WhiteColor}" options:Freeze="True" />
+    <SolidColorBrush x:Key="TextBoxBackgroundSelected" Color="#D9D9D9" options:Freeze="True" />
 
     <!--  Search Text Box  -->
-    <SolidColorBrush x:Key="SearchTextForeground" Color="#999999" options:Freeze="True" />
+    <SolidColorBrush x:Key="SearchTextForeground" Color="#000000" options:Freeze="True" />
 
     <!--  Link Button  -->
     <SolidColorBrush x:Key="LinkButtonForeground" Color="#1297FB" options:Freeze="True" />
@@ -80,10 +80,10 @@
 
     <!--  Menu  -->
     <SolidColorBrush x:Key="MenuSeparatorBorderBrush" Color="#333337" options:Freeze="True" />
-    <SolidColorBrush x:Key="MenuItemHighlightedBackground" Color="#3E3E40" options:Freeze="True" />
-    <SolidColorBrush x:Key="SubmenuItemBackground" Color="#1B1B1C" options:Freeze="True" />
-    <SolidColorBrush x:Key="SubmenuItemBackgroundHighlighted" Color="#333334" options:Freeze="True" />
-    <SolidColorBrush x:Key="MenuDisabledForeground" Color="#656565" options:Freeze="True" />
+    <SolidColorBrush x:Key="MenuItemHighlightedBackground" Color="#DBDBDB" options:Freeze="True" />
+    <SolidColorBrush x:Key="SubmenuItemBackground" Color="#DBDBDB" options:Freeze="True" />
+    <SolidColorBrush x:Key="SubmenuItemBackgroundHighlighted" Color="#ADADAD" options:Freeze="True" />
+    <SolidColorBrush x:Key="MenuDisabledForeground" Color="#6B6B6B" options:Freeze="True" />
 
     <!--  Scroll Bar  -->
     <SolidColorBrush x:Key="ScrollBarPageButtonBackgroundHighlighted" Color="#05FFFFFF" options:Freeze="True" />
