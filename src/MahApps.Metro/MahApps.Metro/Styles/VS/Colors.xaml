@@ -34,6 +34,8 @@
     <SolidColorBrush x:Key="ComboBoxMouseOverBorderBrush" Color="{StaticResource BlackColor}" options:Freeze="True" />
     <SolidColorBrush x:Key="ComboBoxMouseOverInnerBorderBrush" Color="{StaticResource BlackColor}" options:Freeze="True" />
 
+    <SolidColorBrush x:Key="AccentSelectedColorBrush" Color="{StaticResource BlackColor}" options:Freeze="True" /> 
+
     <SolidColorBrush x:Key="ControlBackgroundBrush" Color="{StaticResource WhiteColor}" options:Freeze="True" />
     <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource WhiteColor}" options:Freeze="True" />
     <SolidColorBrush x:Key="WhiteColorBrush" Color="{StaticResource WhiteColor}" options:Freeze="True" />
